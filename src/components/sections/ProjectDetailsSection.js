@@ -4,7 +4,7 @@ import CallToImg from '../../assests/img/proj-call-to.jpg'
 import { Link } from 'react-router-dom';
 
 export default function ProjectDetailsSection({ id }) {
-  const project = PROJECTS.find(project => project.id == id);
+  const project = PROJECTS.find(project => project.id === id);
 
   if (!project) {
     return <div>Project not found</div>;
@@ -19,7 +19,7 @@ export default function ProjectDetailsSection({ id }) {
       <div className="blog-details spad">
         <div className="container">
           <div className="row d-flex justify-content-center">
-            <img src={img} className='mb-5'></img>
+            <img src={img} className='mb-5' alt=""></img>
             <div className="col-lg-8">
               <div className="blog__details__content">
                 <div className="blog__details__text">

@@ -31,7 +31,7 @@ export default function ContactSection() {
                 </div>
                 <div className="contact__widget__item__text">
                   <h4>Address</h4>
-                  <p>Stillwater, Oklahoma, USA</p>
+                  <p>AMES, IA, USA</p>
                 </div>
               </div>
             </div>
